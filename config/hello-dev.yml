@@ -1,2 +1,7 @@
 test:123
 hello:hello123
+spring:
+  redis:
+    sentinel:
+      master: 127.0.0.1:6379
+spring.redis.sentinel.master=127.0.0.1:6379
